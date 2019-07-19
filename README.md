@@ -1,4 +1,4 @@
-# -
+# 华为算法竞赛-用户人口属性预测
 针对给定数据，对手机用户的年龄段进行预测，是一个六分类问题，评判标准是准确率
 
 https://developer.huawei.com/consumer/cn/activity/devStarAI/algo/competition.html#/preliminary/info/digix-trail-02/introduction
