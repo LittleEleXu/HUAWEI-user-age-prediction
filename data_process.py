@@ -21,6 +21,15 @@ USER_APP_USAGE_PATH = '../../data/user_app_usage/user_app_usage.csv'
 # USER_APP_USAGE_PATH = '/home/xuwenxiang/xu/data/user_app_usage/user_app_usage.csv'
 
 
+# 服务器路径
+# DATA_TRAIN_PATH = '/home/xuwenxiang/xu/data/age_train.csv'
+# DATA_TEST_PATH = '/home/xuwenxiang/xu/data/age_test.csv'
+# USER_BASIC_INFO_PATH = '/home/xuwenxiang/xu/data/user_basic_info.csv'
+# USER_BEHAVIOR_INFO_PATH = '/home/xuwenxiang/xu/data/user_behavior_info.csv'
+# APP_INFO_PATH = '/home/xuwenxiang/xu/data/app_info.csv'
+# USER_APP_ACTIVED_PATH = '/home/xuwenxiang/xu/data/user_app_actived.csv'
+# USER_APP_USAGE_PATH = '/home/xuwenxiang/xu/data/user_app_usage/user_app_usage.csv'
+
 def nn1_data(path_train=DATA_TRAIN_PATH, path_test=DATA_TEST_PATH, path_user_basic_info=USER_BASIC_INFO_PATH):
     basic = pd.read_csv(path_user_basic_info, names=['uId', 'gender', 'city', 'prodName', 'ramCapacity',
                                                      'ramLeftRation', 'romCapacity', 'romLeftRation', 'color',
