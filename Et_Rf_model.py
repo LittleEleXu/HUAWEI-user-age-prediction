@@ -13,6 +13,8 @@ from sklearn.metrics import log_loss
 from data_process import Et_Rf_data
 
 
+# 本地xuwenxiang_dev分支上的修改
+
 class SklearnWrapper(object):
     def __init__(self, clf, seed=0, params=None):
         params['random_state'] = seed
