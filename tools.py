@@ -5,6 +5,10 @@ import datetime
 import xgboost as xgb
 from sklearn.preprocessing import StandardScaler
 
+
+def aaaaa(x):
+    pass
+
 def to_categorical(y, nb_classes=None):
     if not nb_classes:
         nb_classes = np.max(y) + 1
