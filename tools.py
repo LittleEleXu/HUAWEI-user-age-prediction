@@ -6,8 +6,7 @@ import xgboost as xgb
 from sklearn.preprocessing import StandardScaler
 
 
-def aaaaa(x):
-    pass
+### revert修改
 
 def to_categorical(y, nb_classes=None):
     if not nb_classes:
